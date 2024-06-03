@@ -1,6 +1,6 @@
 import React from 'react'
 
-const options=[
+const options:string[]=[
     'Inicio',
     'Trámites y Servicios',
     'Directorio',

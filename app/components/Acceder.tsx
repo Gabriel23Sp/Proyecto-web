@@ -1,10 +1,11 @@
 import React from 'react'
+import Image from 'next/image';
 
 export const Acceder = () => {
   return (
     <article className=' h-[600px] w-full flex justify-center items-center gap-x-[40px]'>
         <figure className='bg-black w-[500px] h-[500px]'>
-            <img src="" alt="Aqui va la imagen" />
+            <Image src="" alt="Aqui va la imagen" />
         </figure>
         <form className=' text-black flex flex-col gap-y-[20px] w-[600px] text-2xl'>
             <h2 className='text-6xl text-center font-semibold'>Acceder</h2>
