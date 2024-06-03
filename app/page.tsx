@@ -1,9 +1,13 @@
-import Image from "next/image";
+import { Header } from "./components/Header";
+import { Nav } from "./components/Nav";
+import { Windons } from "./components/Windons";
 
 export default function Home() {
   return (
-    <div>
-      angelica
-    </div>
+    <>
+      <Header/>
+      <Nav/>
+      <Windons/>
+    </>
   );
 }
