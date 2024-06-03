@@ -2,12 +2,12 @@ import React from 'react'
 
 export const Acceder = () => {
   return (
-    <article className=' h-[600px] w-full flex justify-around items-center'>
-        <figure className='bg-black w-[400px] h-[400px]'>
+    <article className=' h-[600px] w-full flex justify-center items-center gap-x-[40px]'>
+        <figure className='bg-black w-[500px] h-[500px]'>
             <img src="" alt="Aqui va la imagen" />
         </figure>
-        <form className=' text-black flex flex-col gap-y-[10px] w-[400px] text-xl'>
-            <h2 className='text-4xl text-center font-semibold'>Acceder</h2>
+        <form className=' text-black flex flex-col gap-y-[20px] w-[600px] text-2xl'>
+            <h2 className='text-6xl text-center font-semibold'>Acceder</h2>
             <p>Acceder aqui si tienes una cuenta:</p>
 
             <div className='form-text'>
