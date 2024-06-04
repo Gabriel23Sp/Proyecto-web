@@ -23,8 +23,8 @@ nav div:nth-child(7){
   gap: 10px;
 }
 input{
-  border:2px solid #9c9c9c;
-  border-radius: 10px;
+  border:1.5px solid #9c9c9c;
+  border-radius: 5px;
 }
 
 a{
@@ -33,7 +33,31 @@ a{
 }
 
 button{
-  padding: 10px 20px;
+  padding: 5px 20px;
   border-radius: 10px;
   transition: all .5s;
+}
+
+.grid-form-4{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) 120px;
+  justify-content: center;
+  align-items: end;
+}
+
+.grid-form-datos{
+  display: grid;
+  grid-template-columns: repeat(2,1fr) 100px;
+  column-gap: 20px;
+}
+.grid-form-2{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) 120px;
+  align-items: end;
+  column-gap: 20px;
+}
+
+.grid-form-2 section:first-child{
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
