@@ -61,3 +61,17 @@ button{
   grid-column-start: 1;
   grid-column-end: 4;
 }
+
+/*Calendario*/
+.container-calendario{
+  width: 300px;
+  height: 200px;
+  display: grid;
+  grid-template-columns: repeat(7,1fr);
+}
+
+.container-calendario .calendario:first-child{
+  grid-column-start: 1;
+  grid-column-end: 8;
+  background: #bf0908;
+}
