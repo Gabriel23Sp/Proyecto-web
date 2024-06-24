@@ -1,4 +1,4 @@
-import React from 'react'
+'use client'
 import { AgendaCard } from './AgendaCard'
 
 const PESTAÑAS:string[]=[
@@ -34,8 +34,10 @@ export const Historial = () => {
                         </section>
                 </div>
                 <div className='p-[20px] w-full flex justify-around flex-wrap h-[250px] items-center'>
-                    {AGENDAS.map(()=>(
-                        <AgendaCard/>
+                    {AGENDAS.map(( index )=>(
+                        <div key={index}>
+                            <AgendaCard/>
+                        </div>
                     ))}
                 </div>
         </section>

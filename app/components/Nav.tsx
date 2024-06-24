@@ -1,5 +1,4 @@
-import React from 'react'
-
+'use client'
 const options:string[]=[
     'Inicio',
     'Trámites y Servicios',

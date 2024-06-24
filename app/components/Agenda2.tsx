@@ -1,5 +1,4 @@
-import React from 'react'
-
+'use client'
 export const Agenda2 = () => {
   return (
     <div className='flex flex-col w-[380px] p-[15px] h-[450px] justify-center items-center border-[2px] border-black rounded-md gap-[30px]'>

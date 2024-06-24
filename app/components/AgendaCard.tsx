@@ -1,5 +1,4 @@
-import React from 'react'
-
+'use client'
 export const AgendaCard = () => {
   return (
     <article className='w-[500px] h-[170px] rounded-lg flex gap-[20px] flex-col bg-[#e2e2e2] justify-center items-center'>

@@ -1,5 +1,4 @@
-import React from 'react'
-
+'use client'
 export const Agenda = () => {
     const Calendario = Array(43).fill('')
     const Horas = Array(5).fill('')
@@ -30,7 +29,7 @@ export const Agenda = () => {
                     <h4>¿Cuando deseas Atenderte?</h4>
                     <div className='container-calendario'>
                     {Calendario.map((index)=>(
-                           <div className='calendario border-[1px] border-[#bf0908]'>
+                           <div key={index} className='calendario border-[1px] border-[#bf0908]'>
 
                            </div> 
                     ))}
@@ -42,8 +41,8 @@ export const Agenda = () => {
                     <section className='w-full h-[100px]'>
                         <h4>¿A que hora deseas atenderte?</h4> 
                         <div className='flex gap-x-[100px] gap-y-[20px] flex-wrap justify-center'>
-                        {Horas.map(()=>(
-                            <div className='bg-[#464c58] w-[60px] h-[25px]'></div>
+                        {Horas.map((index)=>(
+                            <div key={index} className='bg-[#464c58] w-[60px] h-[25px]'></div>
                         ))}
                         </div>
                     </section>

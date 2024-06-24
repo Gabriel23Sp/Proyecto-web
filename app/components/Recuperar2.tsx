@@ -1,5 +1,4 @@
 'use client'
-import React from 'react'
 
 export const Recuperar2 = () => {
     const cuadros:string[]= [

@@ -1,4 +1,4 @@
-import React from 'react'
+'use client'
 import { Acceder } from './Acceder'
 
 export const Windons = () => {

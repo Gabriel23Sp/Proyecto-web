@@ -1,5 +1,4 @@
-import React from 'react'
-
+'use client'
 export const Anular = () => {
   return (
     <div className='flex flex-col border border-black w-[300px] h-[300px] rounded-md justify-center items-center gap-[10px]'>
