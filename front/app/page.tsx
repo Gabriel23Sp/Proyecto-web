@@ -12,7 +12,9 @@ import { Windons } from "./components/Windons";
 export default function Home() {
   return (
     <>
-    <Detalle/>
+    <Header/>
+    <Windons/>
+
     </>
   );
 }
